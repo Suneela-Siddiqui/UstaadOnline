@@ -1,0 +1,101 @@
+*{
+	margin: 0px;
+	padding:0px;
+	text-align: center;
+}
+.navigation{
+	
+background: darkslategrey;
+
+color: white;
+	
+}
+.navigation ul{
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr 1fr ;
+	grid-gap: 7vh;
+	text-align: center;
+	height: 5vh;
+}
+.navigation ul li {
+	list-style: none;
+
+}
+.navigation ul li a{
+	text-decoration: none;	
+
+}
+.cards{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-gap: 7vh;
+	margin: 10vh;
+}
+.cards div{
+	/*background: #80A6AD;*/
+	margin: 2vh;
+	background: linear-gradient( #112D32,#254E58,#80A6AD) ;
+	color: white;
+	padding: .5vh;
+	 box-shadow:
+		  0 2.9px 2.2px rgba(0, 0, 0, 0.098),
+		  0 6.7px 5.3px rgba(0, 0, 0, 0.098),
+		  0 12.5px 10px rgba(0, 0, 0, 0.09),
+		  0 22.8px 17.9px rgba(0.9, 0, 0, 0.092),
+		  0 41.8px 33.4px rgba(0, 0, 0, 0.099),
+		  0 100px 80px rgba(0, 0, 0, 0.12);
+}
+.cards div:hover{
+	transform: scale(1.1);
+}
+
+
+.card-one img{
+	border-radius: 5vh;
+}
+.card-one  ul{
+	list-style: none;
+	margin: 5vh;
+}
+
+.card-one ul li{
+		text-align: left;
+		padding: 1vh;
+
+}
+.card-one h2{
+	padding: 1vh;
+}
+.cont li a:link, a:visited {
+  background-color: #112D32;
+  color: white;
+  padding:2vh;
+  /*margin-bottom: 2vh;*/
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 50%;
+  border: 1px solid white;
+
+}
+a:hover{
+	background: darkslategray;
+}
+.card-one h2{
+	text-align: left;
+	margin: 5vh;
+	margin-top: 1vh;
+	margin-bottom: 0vh;
+}
+.profile{
+	border-radius: 50%;
+	border: 1.5px solid white;
+	margin: 1.2vh;
+/*	margin-right: 56%;
+*/}
+.cont{
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+
+
+}
